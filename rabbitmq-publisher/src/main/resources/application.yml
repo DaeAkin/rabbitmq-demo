@@ -1,0 +1,11 @@
+server :
+  port: 9911
+
+spring:
+  rabbitmq:
+    host: 192.168.10.181
+#    port: 접속할 포트 (default: 5672)
+    username: wemb
+    password: wemb
+  main:
+    allow-bean-definition-overriding : true
